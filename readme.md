@@ -8,9 +8,9 @@ Readup doesn't have a public API yet but you can still poke around programmatica
 
 Since September 2021, Readup is not packaged directly as a web app anymore but as a mobile/desktop app. 
 
-It can be cumbersome to explore and inspect the network requests of a mobile/desktop app. For development purposes, you can still access an emulated app version of Readup in your browser by navigating to [https://readup.com/?clientType=App](https://readup.com/?clientType=App). By logging in and clicking around this SPA you will then be able to openly inspect the Readup API network requests that happen in your browser. You can visit most pages, including your own profile and My Reads.
+It can be cumbersome to explore and inspect the network requests of a mobile/desktop app. For development purposes, you can still access a part of the Readup app in your browser by navigating to [https://readup.com/?clientType=App](https://readup.com/?clientType=App). By logging in and clicking around this SPA you will then be able to openly inspect the Readup API network requests that happen in your browser. You can visit most pages, including your own profile and My Reads, and perform actions like commenting on read articles.
 
-Caveat: several important Readup features will not work since the expected native platform APIs are missing (for example, reading articles, sharing).
+Caveat: several important Readup features will not work since the expected native platform APIs are missing (for example, saving/reading/sharing articles).
 
 ## Accessing Your Readup Reading History
 1. First you need to obtain an authentication cookie from Readup. Replace `EMAIL_ADDRESS` and `PASSWORD` with your Readup credentials:
